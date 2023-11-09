@@ -1,4 +1,4 @@
-/******** SIDE 1*********/
+
 /*header*/
 
 .header{
@@ -135,15 +135,17 @@ aside> p{
     border-radius: 10px;
     font-size: smaller;
     text-align: left;
-    
+
     background-color: antiquewhite;
-    
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     padding-right: 2rem;
     padding-left: 2rem;
-    
     }
 
-    /*************side 1 ends**************/
+    
+
+    
+
+   
