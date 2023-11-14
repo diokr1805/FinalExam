@@ -1,1 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canteen</title>
+    <link rel="stylesheet"  href="css/style.css">
+</head>
+
+<body class="canteens-body">
+    
+    <header class="header">        <!-- header -->
+            <a href="index.html">Accessibility</a>
+            <a href="topicalpage.html">Topical</a>
+            <a href="campus.html">Campus/building</a>
+            <a href="canteen">Canteens</a>
+        </header>
+
+        <main class="main-canteens">
+            <h1 class="canteens-h1">OsloMet Pilestredet Canteens</h1>
+            <div class="canteens-grid-container">
+                <div class="canteens-grid-item-one">
+                    <h2 class="canteens-h2">The Canteens</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                        Fusce egestas, turpis quis hendrerit ullamcorper, 
+                        risus massa posuere nibh, nec facilisis 
+                        erat sapien ac leo. Nunc non nisi metus. 
+                        Morbi euismod cursus placerat. 
+                        Nulla eget ligula sodales, sodales purus vitae, 
+                        cursus libero. Vestibulum ante ipsum primis in faucibus 
+                        orci luctus et ultrices posuere cubilia curae; 
+                        Nulla eleifend, ex id pellentesque feugiat, 
+                        sapien lacus consequat ipsum, eget ornare ex orci vitae ipsum. 
+                        Aenean ultrices arcu tellus, vitae condimentum neque imperdiet vel.
+                    </p>
+                </div>
+               
+                <div class="canteens-grid-item-two">
+                    <img class="canteens-photos" src="media/canteenoslomet.jpg" alt="Canteen on OsloMet Campus">
+                    <span id="canteens-photo-credit">Foto: Sofie Knobel Breiby</span>
+                </div>
+
+                <div class="canteens-grid-item-three">
+                    <h2 class="canteens-h2">The Food</h2>
+                    <p>Nullam neque nibh, dignissim elementum neque id, 
+                        viverra tincidunt ligula. Maecenas quis ex eu ex consequat fringilla. 
+                        Mauris tortor ipsum, elementum laoreet sem ac, mollis pretium metus. 
+                        Vestibulum vitae mi ullamcorper, imperdiet nisi eu, ultrices diam. 
+                        Etiam euismod massa arcu. Praesent euismod leo eget fringilla suscipit. 
+                        Aenean lorem urna, suscipit et libero eget, auctor malesuada turpis. 
+                        Phasellus porta sapien in purus vulputate, ut euismod risus pharetra. 
+                        Cras lectus nisi, bibendum non congue at, auctor eget dolor. 
+                        Duis vehicula sodales sapien et dictum. 
+                        Pellentesque consequat eu tortor vitae semper. 
+                        Pellentesque semper posuere nisl, ac pharetra nisl.
+                    </p>
+                    </div>
+                
+                    <div class="canteens-grid-item-four">
+                    <img class="canteens-photos" src="media/canteenfood.jpg" alt="Different Canteen food">
+                    <span id="canteens-photo-credit">Foto: Africa Studio / Shutterstock / NTB scanpix</span>
+                </div>
+
+                <div class="canteens-grid-item-five">
+                    <h2 class="canteens-h2">Top Canteens in Pilestredet</h2>
+                    <ol>
+                        <li>x</li>
+                        <li>x</li>
+                        <li>x</li>
+                        <li>x</li>
+                        <li>x</li>
+                    </ol>
+                </div>
+               
+                <div class="canteens-grid-item-six"><img class="canteens-photos" src="mazemap.jpg" alt="Map with five marked spots"></div>
+
+            </div>
+        </main>
+    
+</body>
+</html>

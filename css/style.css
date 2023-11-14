@@ -229,3 +229,73 @@ article{
 .campus-grid-item-six{
     
 }
+
+/*-------- Canteens PAGE --------*/
+
+.canteens-body{
+    background-color: #ADA7A7;
+}
+
+.main-canteens{
+    background-color: #F5F7ED;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-top: 4vh;
+    margin-bottom: 10vh;
+}
+
+.canteens-h1{
+    padding-left: 1.5rem; 
+}
+
+
+/*  GRID  */
+
+.canteens-grid-container{
+    padding-left: 2rem;
+    padding-right: 2rem;
+    display: grid;
+    grid-template-columns: 40vw 40vw;
+    grid-template-rows: 40vh 40vh 40vh;
+}
+
+.canteens-grid-container > div{
+    padding-right: 5rem;
+    font-size: 16px;
+    line-height: 1.5em;
+}
+
+.canteens-grid-item-one{
+}
+
+.canteens-grid-item-two{
+    grid-column: 2/2;
+    grid-row: 1/3;
+}
+
+.canteens-grid-item-three{
+}
+.canteens-grid-item-four{
+    grid-column: 2/2;
+    grid-row: 2/3;
+}
+
+.canteens-photos{
+    width: 30vw; 
+    height: 35vh;
+    object-fit: cover;
+    padding-left: 4vw;
+    padding-right: 4vw;
+}
+
+#canteens-photo-credit{
+    padding-left: 5vw;
+    font-size: 0.8rem;
+}
+
+.canteens-grid-item-five{
+    
+}
+.canteens-grid-item-six{
+    
+}
