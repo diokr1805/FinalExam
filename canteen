@@ -38,7 +38,7 @@
                
                 <div class="canteens-grid-item-two">
                     <img class="canteens-photos" src="media/canteenoslomet.jpg" alt="Canteen on OsloMet Campus">
-                    <span id="campus-photo-credit">Foto: Sofie Knobel Breiby</span>
+                    <!-- Foto: Sofie Knobel Breiby (Skal fikse dette senere) -->
                 </div>
                 
 
@@ -60,7 +60,7 @@
                 
                     <div class="canteens-grid-item-four">
                     <img class="canteens-photos" src="media/canteenfood.jpg" alt="Different Canteen food">
-                    <span id="campus-photo-credit2">Foto: Africa Studio / Shutterstock / NTB scanpix</span>
+                    <!-- Foto: Africa Studio / Shutterstock / NTB scanpix (Skal fikse dette senere) -->
                 </div>
                 
 
