@@ -38,8 +38,9 @@
                
                 <div class="canteens-grid-item-two">
                     <img class="canteens-photos" src="media/canteenoslomet.jpg" alt="Canteen on OsloMet Campus">
-                    <figcaption>Foto: Sofie Knobel Breiby</figcaption>
                 </div>
+                    <figcaption>Foto: Sofie Knobel Breiby</figcaption>
+                
 
                 <div class="canteens-grid-item-three">
                     <h2 class="canteens-h2">The Food</h2>
@@ -59,8 +60,9 @@
                 
                     <div class="canteens-grid-item-four">
                     <img class="canteens-photos" src="media/canteenfood.jpg" alt="Different Canteen food">
-                    <figcaption>Foto: Africa Studio / Shutterstock / NTB scanpix</figcaption>
                 </div>
+                    <figcaption>Foto: Africa Studio / Shutterstock / NTB scanpix</figcaption>
+                
 
                 <div class="canteens-grid-item-five">
                     <h2 class="canteens-h2">Top Canteens in Pilestredet</h2>
