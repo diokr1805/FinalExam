@@ -2,9 +2,9 @@
 /****header/nav******/
 
 .header{
-    margin-right: 1.5rem;
-    margin-left: 1.5rem;
-    height: 3rem;
+    margin-right: 2rem;
+    margin-left: 2rem;
+    height: 4rem;
     background-color: darkorange;
     padding-left: 1rem;
     padding-top: 1.5rem;
@@ -28,15 +28,18 @@
 
 
 body{
-    margin: 0;
+    margin-left: 2rem;
+    margin-right: 2rem;
     font-family: Helvetica, Arial, sans-serif;
     font-size: 1.1rem;
+    background-color: #ADA7A7;
+    
 }
 h1{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: 300;
     font-size: 2rem;
-    text-shadow: 10px 10px 20px red;
+    
 }
 h2{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -51,8 +54,9 @@ h2{
 }
 
 article{
-    margin-left: 1.5rem;
-    margin-right: 1.5rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    
 }
 
 
@@ -80,20 +84,25 @@ article{
 .mainbox {
     font-size: larger;
     display: grid;
+    background-color: #F5F7ED;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    padding-bottom: 2rem;
+    
     }
 
 .text-right{
     display: grid;
     grid-column: 3/4;
     grid-row: 4;
-    width: 45vw;
+    width: 35vw;
     }
 
 .text-left{
     display: grid;
     grid-column: 1/2;
     grid-row: 4;
-    width: 45vw;
+    width: 35vw;
     }
 
 .photo-ref-right{
@@ -117,9 +126,9 @@ article{
     grid-row: 2;
     background-image: url("../media/pilestredet.jpg");
     background-size: cover;
-    height: 30vw;
-    max-height: 50vw;
-    width: 44vw;
+    height: 28vw;
+    max-height: 45vw;
+    width: 35vw;
     }
 
 .image-right{
@@ -127,17 +136,17 @@ article{
     grid-row: 2;
     background-image: url("../media/kjeller_campus.jpeg");
     background-size: cover;
-    height: 30vw;
-    max-height: 50vw;
-    width: 44vw;  
+    height: 28vw;
+    max-height: 45vw;
+    width: 35vw;  
     }
 
 
 /*footer*/
 /* 3 columns and 1 row using list*/
     .footer-container{
-    margin-left: 1.5rem;
-    margin-right: 1.5rem;    
+    margin-left: 2rem;
+    margin-right: 2rem;    
     border-style: groove;
     border-width: 5px;
     border-color:gray;
