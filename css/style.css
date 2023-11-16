@@ -2,12 +2,9 @@
 /****header/nav******/
 
 .header{
-    
-    height: 6rem;
-    margin: 0px;
-    padding: 0px;
+    height: 3rem;
     padding-top: 2rem;
-    padding-bottom: 1rem;;
+    padding-bottom: 1rem;
     text-align: center;
     background: #0ab4ba;
     font-size: 30px;
@@ -15,9 +12,8 @@
 
 .header a{
     padding: 30px 30px 30px 30px;
-    
     color: black;
-    font-size: 1.8rem;
+    font-size: 1.4rem;
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
 }
@@ -31,24 +27,23 @@ body{
     
     font-family: Helvetica, Arial, sans-serif;
     font-size: 1.1rem;
-    background-color: #F5F7ED;
-    
+    background-color: #F5F7ED; 
 }
+
 h1{
     margin-left: 2rem;
     margin-right: 2rem;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: 300;
     font-size: 2rem;
-    
 }
+
 h2{
     margin-left: 2rem;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 1.8rem;
-
-    
+    font-size: 1.8rem;    
 }
+
 .ingress{
     margin: 0px;
     padding:0px;
@@ -56,10 +51,6 @@ h2{
     color:darkslategray;
     font-size: 1.5rem;
 }
-
-
-
-
 
 /**Grid**/
 /* body part containing grids of 4*3*/
@@ -71,42 +62,35 @@ h2{
     display: grid;
     grid-template-rows: minmax(auto);
     grid-template-columns: minmax(auto)
-    }
+}
     
-
- .ingress{
+.ingress{
     display: grid;
     grid-row: 1;
     grid-column: 1/3;
-    }
-
+}
 
 .mainbox {
     font-size: larger;
     display: grid;
-    
     grid-gap: 10px;
     padding-left: 2rem;
-    padding-right: 2rem;
-    
-    
-    }
+    padding-right: 2rem;   
+}
  
- 
-
 .text-right{
     display: grid;
     grid-column: 2/3;
     grid-row: 4;
     width: 45vw;
-    }
+}
 
 .text-left{
     display: grid;
     grid-column: 1/2;
     grid-row: 4;
     width: 45vw;
-    }
+}
 
 .photo-ref-right{
     display: grid;
@@ -134,7 +118,7 @@ h2{
     max-height: auto;
     
     width: 45vw;
-    }
+}
 
 .image-right{
     grid-column: 2/3;
@@ -145,50 +129,56 @@ h2{
     max-height: auto;
     
     width: 45vw;  
-    }
+}
 
 
 /*footer*/
 /* 3 columns and 1 row using list*/
-    .footer-container{
+footer{
     background: #0ab4ba;
     font-size: small;
-   
     height: 13rem;
-   
-    padding-right: 1.5rem;
     display: flex;
-    justify-content: space-between;
-   
-    }
+    justify-content: center;
+    margin-bottom: 0;
+}
 
+.container{
+    padding-right: 50px;
+    padding-top: 1.5rem;
+    margin-right: 50px;
+
+}
 
 .container li{
     list-style-type: none;
     line-height: 1.6;
-    text-align: left;
-    
-    }
-
+    text-align: left;   
+}
 
 /*-------- CAMPUS PAGE --------*/
 
 .campus-body{
-    background-color: #ADA7A7;
+    background-color: #dcf0f8;
+    
 }
 
 .main-campus{
-    background-color: #F5F7ED;
+    background-color: #f0f7f4;
     margin-left: 10vw;
     margin-right: 10vw;
-    margin-top: 4vh;
-    margin-bottom: 10vh;
+    margin-bottom: 3vh;
 }
 
 .campus-h1{
     padding-left: 1.5rem; 
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
 }
 
+.campus-h2{
+    margin-left:0;
+}
 
 /*  GRID  */
 
@@ -204,6 +194,7 @@ h2{
     padding-right: 5rem;
     font-size: 16px;
     line-height: 1.5em;
+    white-space:inherit;
 }
 
 .campus-grid-item-one{
@@ -229,7 +220,7 @@ h2{
     padding-right: 4vw;
 }
 
-#campus-photo-credit{
+.campus-photo-credit{
     padding-left: 5vw;
     font-size: 0.8rem;
 }
@@ -309,4 +300,12 @@ h2{
 }
 .campus-grid-item-six{
     
+}
+
+/*-------- Accessibility --------*/
+
+
+.accessibility-main{
+    margin-left: 25vw;
+    margin-right: 25vw;   
 }
