@@ -28,20 +28,22 @@
 
 
 body{
-    margin-left: 2rem;
-    margin-right: 2rem;
+    
+    
     font-family: Helvetica, Arial, sans-serif;
     font-size: 1.1rem;
-    background-color: #ADA7A7;
+    background-color: #F5F7ED;
     
 }
 h1{
+    margin-left: 2rem;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: 300;
     font-size: 2rem;
     
 }
 h2{
+    margin-left: 2rem;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 1.8rem;
     text-decoration: underline;
@@ -84,7 +86,7 @@ article{
 .mainbox {
     font-size: larger;
     display: grid;
-    background-color: #F5F7ED;
+    
     padding-left: 2.5rem;
     padding-right: 2.5rem;
     padding-bottom: 2rem;
@@ -128,7 +130,7 @@ article{
     background-size: cover;
     height: 28vw;
     max-height: 45vw;
-    width: 35vw;
+    width: 38vw;
     }
 
 .image-right{
@@ -138,7 +140,7 @@ article{
     background-size: cover;
     height: 28vw;
     max-height: 45vw;
-    width: 35vw;  
+    width: 38vw;  
     }
 
 
