@@ -4,11 +4,11 @@
 .header{
     margin-right: 2rem;
     margin-left: 2rem;
-    height: 4rem;
+    height: 5rem;
     background-color: darkorange;
-    padding-left: 1rem;
+   
     padding-top: 1.5rem;
-    padding-bottom: 1rem;
+    padding-bottom: 0.5rem;
     border-style: groove;
     border-width: 10px;
     border-color:gray;
@@ -129,7 +129,7 @@ article{
     background-image: url("../media/pilestredet.jpg");
     background-size: cover;
     height: 28vw;
-    max-height: 45vw;
+    
     width: 38vw;
     }
 
@@ -139,7 +139,7 @@ article{
     background-image: url("../media/kjeller_campus.jpeg");
     background-size: cover;
     height: 28vw;
-    max-height: 45vw;
+    
     width: 38vw;  
     }
 
@@ -149,22 +149,20 @@ article{
     .footer-container{
     margin-left: 2rem;
     margin-right: 2rem;    
+    
+    font-size: smaller;
+    text-align: left;
     border-style: groove;
     border-width: 5px;
     border-color:gray;
     border-radius: 10px;
-    font-size: smaller;
-    text-align: left;
     background-color:bisque;
     display: flex;
     justify-content: space-between;
     padding-top: 0.5rem;
     }
 
-.container{
-    width: 960px;        
-    }    
-    
+
 .container li{
     list-style-type: none;
     line-height: 1.6;
