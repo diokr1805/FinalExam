@@ -2,19 +2,20 @@
 /****header/nav******/
 
 .header{
-    height: 3rem;
-    padding-top: 2rem;
-    padding-bottom: 1rem;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    line-height: 1.6;
     text-align: center;
     background: #0ab4ba;
     font-size: 30px;
 }
 
 .header a{
-    padding: 30px 30px 30px 30px;
+    
     color: black;
     font-size: 1.4rem;
     font-family: Arial, Helvetica, sans-serif;
+    font-weight: 550;
     text-decoration: none;
 }
 
@@ -24,9 +25,8 @@
 body{
     padding: 0px;
     margin: 0px;
-    
     font-family: Helvetica, Arial, sans-serif;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     background-color: #F5F7ED; 
 }
 
@@ -52,109 +52,167 @@ h2{
     font-size: 1.5rem;
 }
 
-/**Grid**/
-/* body part containing grids of 4*3*/
-/*4 rows: 1 introduction paragraph (ingress), 1 image box, 1 reference for image and 1 text section(text left/right)*/
-/*3 columns: 2 for images/texts left or right and 1 in the middle to separate images*/
-/*mainbox contains the whole main/article*/
+/**Body-Grid**/
+
 
 .grid-container{
     display: grid;
-    grid-template-rows: minmax(auto);
-    grid-template-columns: minmax(auto)
-}
-    
-.ingress{
-    display: grid;
-    grid-row: 1;
-    grid-column: 1/3;
+    grid-template-columns: auto auto auto;
+    column-gap: 40px;
 }
 
-.mainbox {
-    font-size: larger;
-    display: grid;
-    grid-gap: 10px;
-    padding-left: 2rem;
-    padding-right: 2rem;   
+.title1 {
+    grid-column: 1 / -1;
 }
- 
-.text-right{
-    display: grid;
-    grid-column: 2/3;
-    grid-row: 4;
-    width: 45vw;
+    
+.title2 {
+    grid-column: 1 / -1;
+}
+
+.ingress{
+    grid-column: 1/3;
+    margin-left: 2rem;
+}
+
+.image-left{
+    margin-left: 2rem;
+    grid-column: 1/2;
+    width: 98%;
+    background-image: url("../media/pilestredet.jpg");
+    background-size: cover;
+    height: 35vw;
+    
 }
 
 .text-left{
+    margin-left: 2rem;
     display: grid;
     grid-column: 1/2;
-    grid-row: 4;
-    width: 45vw;
+    grid-row: 6;
+    
 }
 
-.photo-ref-right{
-    display: grid;
-    grid-column: 1/2;
-    grid-row: 3;
-    font-style: italic;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+.image-right{
+    margin-right: 2rem;
+    grid-column: 2/3;
+    width: 95%;
+    background-image: url("../media/kjeller_campus.jpeg");
+    background-size: cover;
+    height: 35vw;
 }
 
 .photo-ref-left{
     display: grid;
+    grid-column: 1/2;
+    grid-row: 5;
+    font-style: italic;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 2rem;
+}
+
+.photo-ref-right{
+    display: grid;
     grid-column: 2/3;
-    grid-row: 3;
+    grid-row: 5;
     font-style: italic;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     
 }
-        
-.image-left{
-    grid-column: 1/2;
-    grid-row: 2;
-    background-image: url("../media/pilestredet.jpg");
-    background-size: cover;
-    height: 35vw;
-    max-height: auto;
-    
-    width: 45vw;
+
+.text-right{
+    margin-right: 2rem;
+    display: grid;
+    grid-column: 2/3;
+    grid-row: 6;
 }
 
-.image-right{
-    grid-column: 2/3;
-    grid-row: 2;
-    background-image: url("../media/kjeller_campus.jpeg");
-    background-size: cover;
-    height: 35vw;
-    max-height: auto;
-    
-    width: 45vw;  
-}
+
+/**Grid for mobile viwer max 400px**/
+
+
+
+@media only screen and (max-width: 400px) {
+
+    [class*="header"] {
+        grid-template-columns: auto auto auto;
+      }
+
+    [class*="title1"] {
+        grid-column: 1/-1; 
+      }
+
+    [class*="title2"] {
+        grid-column: 1/-1;
+      }
+
+    [class*="ingress"] {
+        grid-column: 1/-1;
+        grid-row: 3;
+      }
+
+    [class*="image-left"] {
+        grid-column: 1/3;
+        grid-row: 4;
+        height: 50vw;
+      }
+
+    [class*="text-left"] {
+        grid-column: 1/3;
+        grid-row: 6;
+      }   
+
+      [class*="photo-ref-left"] {
+        margin-left: 2rem;
+        grid-column: 1/3;
+        grid-row: 5;
+      }  
+
+      [class*="image-right"] {
+        margin-left: 2rem;
+        grid-column: 1/3;
+        grid-row: 7;
+        height: 50vw;
+      }  
+
+    [class*="text-right"] {
+        margin-left: 2rem;
+        grid-column: 1/3;
+        grid-row: 9;
+      }  
+
+      [class*="photo-ref-right"] {
+        margin-left: 2rem;
+        grid-column: 1/3;
+        grid-row: 8;
+      }  
+     
+  }
 
 
 /*footer*/
-/* 3 columns and 1 row using list*/
+
 footer{
     background: #0ab4ba;
     font-size: small;
-    height: 13rem;
-    display: flex;
-    justify-content: center;
-    margin-bottom: 0;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    
 }
 
 .container{
-    padding-right: 50px;
-    padding-top: 1.5rem;
+    grid-template-columns: 1/2;
+    padding-top: 1rem;
     margin-right: 50px;
-
+    background: #0ab4ba;
+    width: 33vw;
 }
 
 .container li{
     list-style-type: none;
     line-height: 1.6;
-    text-align: left;   
+    
 }
+
 
 /*-------- CAMPUS PAGE --------*/
 
