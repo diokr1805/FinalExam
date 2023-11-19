@@ -1,5 +1,5 @@
 
-/****header/nav******/
+/****header/nav 1*5 grid PC view******/
 
 .header{
     display: grid;
@@ -52,7 +52,7 @@ h2{
     font-size: 1.5rem;
 }
 
-/**Body-Grid**/
+/**Body-Grid 6*3 PC view**/
 
 
 .grid-container{
@@ -127,9 +127,9 @@ h2{
 }
 
 
-/**Grid for mobile viwer max 400px**/
 
-/*footer*/
+
+/*footer 1*3 grid both pc and mobile views*/
 
 footer{
     display: grid;
@@ -151,6 +151,7 @@ footer{
     line-height: 1.6;
     
 }
+/* mobile view when max-width 400px reaches pictures and texts appear in new lines*/
 
 @media only screen and (max-width: 400px) {
 
@@ -175,6 +176,7 @@ footer{
         grid-column: 1/3;
         grid-row: 4;
         height: 50vw;
+        width: 100%;
       }
 
     [class*="text-left"] {
@@ -193,6 +195,7 @@ footer{
         grid-column: 1/3;
         grid-row: 7;
         height: 50vw;
+        width: 100%;
       }  
 
     [class*="text-right"] {
