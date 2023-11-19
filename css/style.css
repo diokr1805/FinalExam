@@ -221,7 +221,6 @@ footer{
 
 .campus-body{
     background-color: #dcf0f8;
-    
 }
 
 .main-campus{
@@ -245,106 +244,51 @@ footer{
 
 .campus-h2{
     margin-left:0;
+    margin-top: 0;
 }
 
 /*  GRID  */
 
-.campus-grid-container{
+.campus-container{
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    @media (max-width: 850px){
-        grid-template-rows: repeat(auto-fit, minmax(height of the items , 1fr));
-        grid-template-columns: 1fr;
-    }
-}    
+    margin: 0 auto;
+    gap: 1rem;
+}
 
-.campus-grid-container > div{
-    padding-right: 2rem;
+
+
+
+@media (min-width: 900px){
+    .campus-container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+.campus-container > div{
     padding-left: 2rem;
-    font-size: 16px;
-    line-height: 24px;
-    row-gap: 0;
+    padding-right: 2rem;
+    padding-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+    flex-flow: column wrap;
 }
 
-.campus-grid-item-one{
-    grid-column: 1 / 2;
-    grid-row: 1 / 2;
-    @media (max-width: 850px){
-        grid-column: 1 / 3;
-        grid-row: 1 / 2;
-    }
-}
-
-.campus-grid-item-two{
-    grid-column: 2 / 3;
-    grid-row: 1 / 3;
-    padding-top: 2rem;
-    width: fit-content;
-    height: 40vh;
-    @media (max-width: 850px){
-        grid-column: 1 / 3;
-        grid-row: 2 / 3;
-        width: fit-content;
-    }
-}
-
-.campus-grid-item-three{
-    grid-column: 1 / 2;
-    grid-row: 2 / 3;
-    @media (max-width: 850px){
-        grid-column: 1 / 3;
-        grid-row: 3 / 4;
-    }
-}
-.campus-grid-item-four{
-    grid-column: 2 / 3;
-    grid-row: 2 / 3;
-    padding-top: 2rem;
-    width: 40vw;
-    height: 40vh;
-    @media (max-width: 850px){
-        grid-column: 1 / 3;
-        grid-row: 4 / 5;
-        height: fit-content;
-        width: fit-content;
-    }
-}
-
-.campus-grid-item-five{
-    grid-column: 1 / 2;
-    grid-row: 3 / 4;
-    @media (max-width: 850px){
-        grid-column: 1 / 3;
-        grid-row: 5 / 6;
-    }
-}
-
-.campus-grid-item-six{
-    grid-column: 2/3;
-    grid-row: 3 / 4;
-    padding-top: 2rem;
-    width: 40vw;
-    height: 40vh;
-    @media (max-width: 850px){
-        grid-column: 1 / 3;
-        grid-row: 6 / 7;
-        width: fit-content;
-        height: fit-content;
-        padding-bottom: 2rem;
-    }
+.campus-container > div > p{
+    font-size:16px;
+    line-height: 1.4rem;
 }
 
 .campus-photos{
     object-fit: cover;
-    border-radius: 5px;
-    width: 100%;
-    height: 80%;
+    max-width: 100%;
+    height: 300px;
+    align-items: center;
 }
 
 .campus-photo-credit{
+    padding-top: 1rem;
+    font-size: 12px;
     padding-left: 2vw;
-    font-size: 0.8rem;
 }
 
 /*-------- Canteens PAGE --------*/
