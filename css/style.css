@@ -229,10 +229,9 @@ footer{
     margin-left: 10vw;
     margin-right: 10vw;
     margin-bottom: 3vh;
-
-    @media (max-width: 1300px){
-        margin-left: 5vw;
-        margin-right: 5vw;
+    @media (max-width: 1000px){
+        margin-left: 3vw;
+        margin-right: 3vw;
     }
 }
 
@@ -258,15 +257,15 @@ footer{
 
 
 
-@media (min-width: 900px){
+@media (min-width: 800px){
     .campus-container{
         grid-template-columns: repeat(2, 1fr);
     }
 }
 
 .campus-container > div{
-    padding-left: 2rem;
-    padding-right: 2rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
     padding-bottom: 2rem;
     display: flex;
     justify-content: center;
@@ -286,8 +285,8 @@ footer{
 }
 
 .campus-photo-credit{
-    padding-top: 1rem;
-    font-size: 12px;
+    padding-top: 0.5rem;
+    font-size: 11px;
     padding-left: 2vw;
 }
 
