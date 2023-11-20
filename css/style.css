@@ -446,11 +446,13 @@ footer{
 }
 
 .topical-main > p{
-    float: 0;   
+    float: 1000px;   
 }
 
 
 .topical-photos{
+position: relative;
+bottom: 1550px;
 display: flex;
   width: 450px;
   height: 350px;
@@ -463,8 +465,11 @@ display: flex;
 }
 
 .topical-caption{
+    display: flex;
     float: left;
     margin-left: 52vw; 
+    position: relative;
+    bottom: 1550px;
 }
 
 /*-------- Accessibility --------*/
