@@ -60,7 +60,7 @@ h2{
     margin-left: 2rem;
     display: grid;
     grid-template-columns: auto auto auto;
-    column-gap: 40px;
+    column-gap: 70px;
 }
 
 .title1 {
