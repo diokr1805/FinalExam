@@ -170,6 +170,7 @@ footer{
     [class*="ingress"] {
         grid-column: 1/-1;
         grid-row: 3;
+        margin-right: 2rem;
       }
 
     [class*="image-left"] {
