@@ -436,8 +436,6 @@ footer{
 /*-------- Topical --------*/
 
 .topical-main{
-  margin-top: 10px;
-  margin-bottom: 100px;
-  margin-right: 150px;
-  margin-left: 80px;
+    margin-left: 5vw;
+    margin-right: 5vw;
 }
