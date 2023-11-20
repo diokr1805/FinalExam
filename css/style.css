@@ -435,7 +435,7 @@ footer{
 }
 
 .topical-main{
-    background-color: #2a9e6c;
+    background-color: #f0f7f4;
     margin-left: 3vw;
     margin-right: 30vw;  
     margin-top: 3vh;
@@ -444,16 +444,16 @@ footer{
     padding-right: 2rem;
     padding-top: 2rem;
     padding-bottom: 2rem;
-}
+    max-height: 1750px; 
+    }
 
-.topical-main > p{
-    float: 1000px;   
+.topical-text-content{
+    line-height: 21pt;
 }
-
 
 .topical-photos{
 position: relative;
-bottom: 1550px;
+bottom: 1750px;
 display: flex;
   width: 450px;
   height: 350px;
@@ -470,13 +470,15 @@ display: flex;
     float: left;
     margin-left: 52vw; 
     position: relative;
-    bottom: 1550px;
+    bottom: 1750px;
     padding-top: 0.5rem;
     font-size: 0.7rem;
     padding-left: 2vw;
     white-space: nowrap;
     overflow: hidden;
 }
+
+
 
 /*-------- Accessibility --------*/
 
