@@ -57,6 +57,7 @@ h2{
 
 
 .grid-container{
+    margin-left: 2rem;
     display: grid;
     grid-template-columns: auto auto auto;
     column-gap: 40px;
