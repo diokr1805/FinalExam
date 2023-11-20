@@ -470,6 +470,11 @@ display: flex;
     margin-left: 52vw; 
     position: relative;
     bottom: 1550px;
+    padding-top: 0.5rem;
+    font-size: 0.7rem;
+    padding-left: 2vw;
+    white-space: nowrap;
+    overflow: hidden;
 }
 
 /*-------- Accessibility --------*/
