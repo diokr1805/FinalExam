@@ -436,6 +436,23 @@ footer{
 /*-------- Topical --------*/
 
 .topical-main{
-    margin-left: 5vw;
-    margin-right: 5vw;
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+
+.topical-photos{
+display: flex;
+  width: 450px;
+  height: 350px;
+  margin-left: 40vw;
+  margin-top: 5vw;
+  color: transparent;
+  background: rgba(0, 0, 0, 0.2);
+  border: 3px solid #0059dd;
+  box-sizing: border-box;
+}
+
+.topical-caption{
+    float: left;
+    margin-left: 40vw; 
 }
