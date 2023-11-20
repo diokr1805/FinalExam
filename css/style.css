@@ -434,7 +434,7 @@ footer{
 }
 
 .topical-main{
-    background-color: #2a9e6c;
+    background-color: #f0f7f4;
     margin-left: 3vw;
     margin-right: 30vw;  
     margin-top: 3vh;
@@ -442,7 +442,8 @@ footer{
     padding-left: 2rem;
     padding-right: 2rem;
     padding-top: 2rem;
-    padding-bottom: 2rem; 
+    padding-bottom: 2rem;
+    max-height: 1750px; 
 } 
 
 .topical-text-content{
