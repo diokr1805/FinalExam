@@ -428,16 +428,33 @@ footer{
 
 /*-------- Topical --------*/
 
-.topical-main{
+.topical-body{
     margin-left: 10vw;
     margin-right: 10vw;
 }
+
+.topical-main{
+    background-color: #2a9e6c;
+    margin-left: 3vw;
+    margin-right: 30vw;  
+    margin-top: 3vh;
+    margin-bottom: 3vh; 
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.topical-main > p{
+    float: 0;   
+}
+
 
 .topical-photos{
 display: flex;
   width: 450px;
   height: 350px;
-  margin-left: 40vw;
+  margin-left: 52vw;
   margin-top: 5vw;
   color: transparent;
   background: rgba(0, 0, 0, 0.2);
@@ -447,7 +464,7 @@ display: flex;
 
 .topical-caption{
     float: left;
-    margin-left: 40vw; 
+    margin-left: 52vw; 
 }
 
 /*-------- Accessibility --------*/
