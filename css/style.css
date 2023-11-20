@@ -289,7 +289,7 @@ footer{
 }
 
 .container-p35 > div > p{
-    font-size: 16px;
+    font-size: 1.1rem;
     line-height: 1.4rem;
 }
 
@@ -302,7 +302,7 @@ footer{
 
 .photo-credit-p35{
     padding-top: 0.5rem;
-    font-size: 11px;
+    font-size: 0.7rem;
     padding-left: 2vw;
 }
 
@@ -427,8 +427,49 @@ footer{
 }
 /*-------- Accessibility --------*/
 
+.accessibility-body{
+    background-color: #dcf0f8;
+}
+
+.container-p35{
+    display: grid;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: auto;
+    margin-right: auto;
+    gap: 1rem;
+}
 
 .accessibility-main{
-    margin-left: 25vw;
-    margin-right: 25vw;   
+    background-color: #f0f7f4;
+    margin-left: 17vw;
+    margin-right: 17vw;  
+    margin-top: 3vh;
+    margin-bottom: 3vh; 
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.photo-accessibility{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    @media(max-width: 1399px){
+        flex-flow:wrap;
+    }
+}
+
+.photo-accessibility > img{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    border-width: 2px;
+    border-color: black;
+    border-style:solid;
+    object-fit: cover;
+    max-width: 100%;
 }
