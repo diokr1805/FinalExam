@@ -381,8 +381,8 @@ footer{
 .topical-photos{
     object-fit: cover;
     align-items: center;
-    width: 80vw;
-    height: 50vh;
+    width: 70vw;
+    height: 45vh;
     max-width: 100%;
     display: block;
     margin-left: auto;
