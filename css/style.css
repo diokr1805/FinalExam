@@ -255,13 +255,6 @@ footer{
     margin-top: 3vh;
 }
 
-@media (max-width: 799px){
-    .main-p35{
-        margin-left: 4vw;
-        margin-right: 4vw;
-    }
-}
-
 .h1-p35{
     padding-left: 1.5rem; 
     padding-top: 1.5rem;
@@ -288,11 +281,15 @@ footer{
     gap: 1rem;
 }
 
-/*media query for larger devices makes 2 columns instead of 1*/
+/*media query for smaller/larger devices makes 2 columns instead of 1*/
 
 @media (min-width: 799px){
     .container-p35{
         grid-template-columns: repeat(2, 1fr);
+    }
+    .main-p35{
+        margin-left: 4vw;
+        margin-right: 4vw;
     }
 }
 
