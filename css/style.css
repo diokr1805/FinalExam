@@ -157,7 +157,6 @@ footer{
 .footer-container  li  a{
     color: black;
 }
-
 .footer-container  li  a:hover{
     color: rgb(212, 24, 24);
 }
@@ -336,7 +335,7 @@ footer{
     grid-template-areas:
     "topical-text topical-images"
     "topical-text topical-images";
-    
+    background-color: #dcf0f8;
     
 }
 
