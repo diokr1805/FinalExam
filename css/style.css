@@ -429,53 +429,39 @@ footer{
 
 /*-------- Topical --------*/
 
-.topical-body{
-    margin-left: 10vw;
-    margin-right: 10vw;
+.topical-page{
+    display: grid;
+    grid-template-columns: 2fr 1fr ;
+    grid-template-rows: 1.5fr 1.5fr;
+    grid-template-areas:
+    "topical-text topical-images"
+    "topical-text topical-images";
+    gap: 20px;
 }
 
 .topical-main{
-    background-color: #f0f7f4;
-    margin-left: 3vw;
-    margin-right: 30vw;  
-    margin-top: 3vh;
-    margin-bottom: 3vh; 
-    padding-left: 2rem;
-    padding-right: 2rem;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-    max-height: 1750px; 
-    }
+    background-color: #880aba;
+    padding: 20px;
+    margin-left: 15vw;
+    margin-right: 5vw;
+    margin-top: 2vh;
+}
 
-.topical-text-content{
-    line-height: 21pt;
+#topical-images{
+    background-color: red;
 }
 
 .topical-photos{
-position: relative;
-bottom: 1750px;
-display: flex;
-  width: 450px;
-  height: 350px;
-  margin-left: 52vw;
-  margin-top: 5vw;
-  color: transparent;
-  background: rgba(0, 0, 0, 0.2);
-  border: 3px solid #0059dd;
-  box-sizing: border-box;
+    object-fit: cover; 
+    width: 550px;
+    height: 340px;
+    align-items: center; 
+    margin-top: 2vh;
 }
-
 .topical-caption{
-    display: flex;
-    float: left;
-    margin-left: 52vw; 
-    position: relative;
-    bottom: 1750px;
     padding-top: 0.5rem;
     font-size: 0.7rem;
     padding-left: 2vw;
-    white-space: nowrap;
-    overflow: hidden;
 }
 
 
