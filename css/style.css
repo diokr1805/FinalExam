@@ -309,6 +309,17 @@ footer{
 
 /*-------- Canteens PAGE --------*/
 
+
+.mazemap-photo{
+    object-fit: cover;
+    align-items: center;
+    height: 400px;
+    width: auto;
+    max-width: 100%;
+}
+
+/*-------- Canteens PAGE OLD CSS --------*/
+
 .canteens-body{
     background-color: #dcf0f8;
 }
