@@ -253,9 +253,12 @@ footer{
     margin-right: 10vw;
     margin-bottom: 3vh;
     margin-top: 3vh;
-    @media (max-width: 799px){
-        margin-left: 2vw;
-        margin-right: 2vw;
+}
+
+@media (max-width: 799px){
+    .main-p35{
+        margin-left: 4vw;
+        margin-right: 4vw;
     }
 }
 
@@ -356,8 +359,8 @@ footer{
 
 @media(max-width: 799px){
     .topical-page{
-        margin-left: 2vw;
-        margin-right: 2vw;  
+        margin-left: 4vw;
+        margin-right: 4vw;  
     }
 }
 
@@ -420,8 +423,8 @@ footer{
 
 @media(max-width: 799px){
     .main-accessibility{
-        margin-left: 2vw;
-        margin-right: 2vw;  
+        margin-left: 4vw;
+        margin-right: 4vw;  
     }
 }
 
