@@ -20,22 +20,24 @@
 <main class="main-accessibility">
     <h1>Accessibility</h1>
     <div class="container-accessibility">
-        <div class="item-one-accessibility">
-            <h2 class="h2-accessibility">Building Our Page</h2>
-            <p class="p-accessibility">When getting started on this project we had to split up the workload into three. 
+        <h2 class="h2-accessibility">Building Our Page</h2>
+        <div class="items-accessibility">
+            <p class="p-accessibility">
+                When getting started on this project we had to split up the workload into three. 
                 We wanted the workload to be proportionate, which ended up being a challenge. 
-                With our group consisting of three members and the goal being four to five pages 
-                of html and one stylesheet, we decided it was best if everyone picked one thing 
+                To split the the assignment we decided it was best if everyone picked one thing 
                 they would like to do and go from there. Even though the workload turned out 
                 somewhat uneven we were all happy to work because we got to choose. Everyone 
                 picked one or two html page and styled their own css. 
             </p>
         </div>
-        <div class="item-two-accessibility">
-            <img src="media/p35-laptop-screenshot.png" alt="screenshot of p35 page on a laptop">
-            <img src="media/p35-mobile-screenshot.png" alt="screenshot of p35 page on a mobile phone">
+        <div class="items-accessibility">
+            <img src="media/p35-laptop-screenshot.png" alt="screenshot of p35 page on a laptop" 
+            class="img-accessibility">
+            <img src="media/p35-mobile-screenshot.png" alt="screenshot of p35 page on a mobile phone" 
+            class="img-accessibility">
         </div>
-        <div class="item-three-accessibility">
+        <div class="items-accessibility">
             <p class="p-accessibility">The challenging aspect of this project was to get a uniform design for all pages, 
                 to make it as simple as possible everyone contributed with design ideas which we 
                 later adapted to our pages. When styling our pages we utilized a grid layout which 
@@ -46,18 +48,59 @@
                 as the screen gets smaller in width, the layout of the page changes to accommodate as. 
             </p>
         </div>
-        <div>
-            <h2 class="h2-accessibility">Testing the Code</h2>
-            <p>
-                bla bla
+        <div class="items-accessibility">
+            <img src="media/p35-screenshot-media-query.png" alt="screenshot of the code for p35" 
+            class="img-accessibility">
+        </div>
+        <h2 class="h2-accessibility">Testing the Code</h2>
+        <div class="items-accessibility">
+            <img src="media/accessibility-overall-score.png" alt="overall accessibility score" 
+            class="img-accessibility">
+        </div>
+        <div class="items-accessibility">
+            <p class="p-accessibility">
+                To test our site we went with <i>Lighthouse</i>, 
+                an automated tool used to test quality and performance 
+                for web apps. We decided to test every page to ensure that
+                the score we recieved was consistent throughout the whole site.
+                And after a few tweaks the results were almost identical.
+                We wanted direct our attention towards the written feedback
+                rather than the total score and so we captured some screenshots of the 
+                feedback and score.
             </p>
-            <img>
-            <p>
-                bla bla
+        </div>
+        <div class="items-accessibility">
+            <img src="media/accessibility-seo.png" alt="seo score from testing" 
+            class="img-accessibility">
+        </div>
+        <div class="items-accessibility">
+            <p class="p-accessibility">
+                After thoroughly inspecting the accessibility 
+                results on all pages, we noticed the SEO score 
+                on our introduction page was lower compared to the other pages.
+                SEO (search engine optimization) is all about the website being 
+                more visible in searches. On our introduction page we had text 
+                wrapped in anchor elements to signify where we would place a link, 
+                however we decided not to add links. 
+                Since search engines use href attributes to crawl on
+                websites it creates a conflict when you leave href elements without valid links.
+            </p>
+        </div>
+        <div class="items-accessibility">
+            <img src="media/accessibility-pwa.png" alt="pwa score from testing" 
+            class="img-accessibility">
+        </div>
+        <div class="items-accessibility">
+            <p class="p-accessibility">
+                We also noticed the pwa score was nonexistent.
+                For <i>Lighthouse</i> to provide a pwa (progressive web app) score
+                it has a checklist with various requirements. Some of the minimum requirements
+                being a start url property, icons, installability, correct proportions, etc.
             </p>
         </div>
     </div>
 </main>
+
 <footer> 
     <div class="footer-container"> <!--3 columns in 1*3 grid-->
         <ul>
