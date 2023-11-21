@@ -245,6 +245,7 @@ footer{
     margin-left: 10vw;
     margin-right: 10vw;
     margin-bottom: 3vh;
+    margin-top: 3vh;
     @media (max-width: 799px){
         margin-left: 3vw;
         margin-right: 3vw;
@@ -344,7 +345,8 @@ footer{
     padding: 20px;
     margin-left: 3vw;
     margin-right: 3vw;
-    margin-top: 2vh;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
 }
 .topical main2{
     display: grid;
@@ -415,9 +417,6 @@ footer{
     line-height: 1.4rem;
 }
 
-.item-one-accessibility{
-
-}
 
 .item-two-accessibility{
     margin-top: 3rem;
@@ -440,8 +439,4 @@ footer{
     object-fit: cover;
     max-width: 100%;
     min-width: 0;
-}
-
-.item-three-accessibility{
-
 }
