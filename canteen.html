@@ -1,31 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Canteen</title>
-    <link rel="stylesheet"  href="css/style.css">
-</head>
-
-<body class="canteens-body">
-    
-    <header class="header">        <!-- header/nav to 5 internal pages containing 1*5 grid for PC and 2*3 for mobile view-->
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Canteen</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body class="body-p35">
+        <header class="header">        <!-- header/nav to 5 internal pages containing 1*5 grid for PC and 2*3 for mobile view-->
             <a href="index.html">Campuses</a>
             <a href="topicalpage.html">Topical</a>
             <a href="p35.html">P35</a>
             <a href="canteen.html">Canteens</a>
             <a href="accessibility.html">Accessibility</a>
         </header>
-<!--every class name includes "canteens" to make it clear in the css the class belongs to this page-->
+        <!--every class name ends with "p35" to make it clear in the css the class belongs to this page-->
 
-        <main class="main-canteens">
-            <h1 class="canteens-h1">OsloMet Pilestredet Canteens</h1>
+        <main class="main-p35">
+            <h1 class="h1-p35">OsloMet Pilestredet Canteens</h1>
 
-
-            <div class="canteens-grid-container">
-                <div class="canteens-grid-item-one">
-                    <h2 class="canteens-h2">The Canteens</h2>
+            <!--container for applying grid followed by grid items-->
+            <div class="container-p35">
+                <div class="item-one-p35">
+                    <h2 class="h2-p35">The Canteens</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                         Fusce egestas, turpis quis hendrerit ullamcorper, 
                         risus massa posuere nibh, nec facilisis 
@@ -39,16 +36,14 @@
                         Aenean ultrices arcu tellus, vitae condimentum neque imperdiet vel.
                     </p>
                 </div>
-                <div class="canteens-grid-item-two">
+                <div class="item-two-p35">
+                    <!--images taken from the web followed by a span to mention the source -->
 
-                    <img class="canteens-photos" src="media/canteenoslomet.jpg" alt="Canteen on OsloMet Campus">
-                    <span class ="canteens-photo-credit">Photo: Sofie Knobel Breiby</span>
-                
+                    <img class="photos-p35" src="media/canteenoslomet.jpg" alt="Canteen on OsloMet Campus">
+                    <span class="photo-credit-p35">Photo: Sofie Knobel Breiby</span>
                 </div>
-                
-
-                <div class="canteens-grid-item-three">
-                    <h2 class="canteens-h2">The Food</h2>
+                <div class="item-three-p35">
+                    <h2 class="h2-p35">The Food</h2>
                     <p>Nullam neque nibh, dignissim elementum neque id, 
                         viverra tincidunt ligula. Maecenas quis ex eu ex consequat fringilla. 
                         Mauris tortor ipsum, elementum laoreet sem ac, mollis pretium metus. 
@@ -57,21 +52,13 @@
                         Aenean lorem urna, suscipit et libero eget, auctor malesuada turpis. 
                         Phasellus porta sapien in purus vulputate, ut euismod risus pharetra. 
                         Cras lectus nisi, bibendum non congue at, auctor eget dolor. 
-                        Duis vehicula sodales sapien et dictum. 
-                        Pellentesque consequat eu tortor vitae semper. 
-                        Pellentesque semper posuere nisl, ac pharetra nisl.
                     </p>
                     </div>
-                
-                    <div class="canteens-grid-item-four">
-                    <img class="canteens-photos" src="media/canteenfood.jpg" alt="Different Canteen food">
-                    <span class ="canteens-photo-credit">Photo: Africa Studio / Shutterstock / NTB scanpix</span>
-                    
-                </div>
-                
-
-                <div class="canteens-grid-item-five">
-                    <h2 class="canteens-h2">Top Canteens in Pilestredet</h2>
+                <div class="item-four-p35">
+                    <img class="photos-p35" src="media/canteenfood.jpg" alt="Different Canteen food">
+                    <span class="photo-credit-p35">Photo: Africa Studio / Shutterstock / NTB scanpix</span></div>
+                <div class="item-five-p35">
+                    <h2 class="h2-p35">Top Canteens in Pilestredet</h2>
                     <ol>
                         <li>x</li>
                         <li>x</li>
@@ -80,40 +67,39 @@
                         <li>x</li>
                     </ol>
                 </div>
-               
-                <div class="canteens-grid-item-six">
-                <img class="canteens-mazemap-photo" src="media/Mazemap.jpg" alt="Map with five marked spots"></div>
-                <!-- Photo is taken through screenshot of mazemap, and altered through photoshop) -->
-
+                <div class="item-six-p35">
+                    <img class="photos-p35" src="media/Mazemap.jpg" alt="Indoor climbing in P35"></div>
+                    <!-- Photo is taken through screenshot of mazemap, and altered through photoshop) -->
+                </div>
             </div>
         </main>
+
         <footer> 
-            <div class="footer-container">
-              <ul>
-                <li><b>PAGES DESIGNED & CREATED BY</b></li>
-                <li>Student ID: 385509</li> 
-                <li>Student ID: 385530</li>
-                <li>Student ID: 385324</li>
-             </ul>
-           </div>
-           
-           <div class="footer-container"> 
-             <ul>
+            <div class="footer-container"> <!--3 columns in 1*3 grid-->
+                <ul>
+                    <li><b>PAGES DESIGNED & CREATED BY</b></li>
+                    <li>Student ID: 385509</li> 
+                    <li>Student ID: 385530</li>
+                    <li>Student ID: 385324</li>
+                </ul>
+            </div>
+        
+        <div class="footer-container"> 
+            <ul>
                 <li><b>CONTACT INFORMATION</b></li>
                 <li><a href="Contact us">Contact us</li>
                 <li><a href="Find us">Find us</li>
                 <li><a href="Support us">Support us</li>
-             </ul> 
-           </div>
-           
+            </ul> 
+        </div>
+        
             <div class="footer-container">  
-             <ul>
-                <li><b>ABOUT THE WEBSITE</b></li>
-                <li><a href="Cookies policy">Cookies policy</li>
-                <li><a href="Accessibility statement">Accessibility statement</li>
-             </ul>
+                <ul>
+                    <li><b>ABOUT THE WEBSITE</b></li>
+                    <li><a href="Cookies policy">Cookies policy</li>
+                    <li><a href="Accessibility statement">Accessibility statement</li>
+                </ul>
             </div>
-            
-           </footer>
-</body>
+        </footer>
+    </body>
 </html>
