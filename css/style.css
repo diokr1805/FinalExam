@@ -30,8 +30,7 @@ body{
     background-color: #F5F7ED; 
 }
 
-h1{
-    
+h1{ 
     margin-right: 2rem;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: 300;
@@ -43,6 +42,14 @@ h2{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 1.8rem;
     font-weight: 600;  
+}
+
+h3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 0;
+    margin-top: 2rem;
 }
 
 .ingress{
@@ -164,7 +171,7 @@ footer{
 
 /* mobile view when max-width 400px reaches pictures and texts appear in new lines*/
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 500px) {
 
     [class*="header"] {
         grid-template-columns: auto auto auto;
@@ -261,7 +268,6 @@ footer{
 /*remove margin from to set it to the left and avoid gaps*/
 
 .h2-p35{
-    margin-left:0;
     margin-top: 0;
 }
 
@@ -300,7 +306,7 @@ footer{
 
 .container-p35 > div > p{
     font-size: 1.1rem;
-    line-height: 1.4rem;
+    line-height: 1.5rem;
 }
 
 .photos-p35{
@@ -329,42 +335,57 @@ footer{
 }
 
 /*-------- Topical --------*/
-.topical-page{
+
+.topical-main{
     display: grid;
     grid-template-columns: auto;
-    
     grid-template-areas:
     "topical-text topical-images"
     "topical-text topical-images";
     background-color: #dcf0f8;
-    
 }
 
-.topical-main{
+.topical-page{
     background-color: #f0f7f4;
     padding: 20px;
-    margin-left: 3vw;
-    margin-right: 3vw;
+    margin-left: 20vw;
+    margin-right: 20vw;
     margin-top: 3vh;
     margin-bottom: 3vh;
-}
-.topical main2{
-    display: grid;
-    grid-template-columns: auto;
+    @media (max-width: 799px){
+        margin-left: 3vw;
+        margin-right: 3vw;
+    }
 }
 
-.topical-photos{
-    object-fit: cover; 
-    width: 550px;
-    height: 340px;
-    align-items: center; 
-    margin-top: 2vh;
-    width: 90%;
-    height: 35rem;
-    margin-left: auto;
-    margin-right: auto;
-    
+.items-topical{
+    margin-bottom: 1.5rem;
 }
+
+.items-topical > p{
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+.list-topical{
+    margin-top: 0;
+}
+
+
+.list-topical > li{
+    padding-top: 1rem;
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+
+.topical-photos{
+    object-fit: cover;
+    align-items: center;
+    width: auto;
+    max-width: 100%;
+}
+    
 .topical-caption{
     padding-top: 0.5rem;
     font-size: 0.7rem;
@@ -381,8 +402,8 @@ footer{
 
 .main-accessibility{
     background-color: #f0f7f4;
-    margin-left: 10vw;
-    margin-right: 10vw;  
+    margin-left: 20vw;
+    margin-right: 20vw;  
     margin-top: 3vh;
     margin-bottom: 3vh; 
     padding-left: 1.5rem;
@@ -401,6 +422,11 @@ footer{
     margin-top: 0.8rem;
 }
 
+.p-accessibility{
+    font-size: 1.1rem;
+    line-height: 1.7rem;
+}
+
 /* GRID */
 
 .container-accessibility{
@@ -412,10 +438,6 @@ footer{
     gap: 1rem;
 }
 
-.containter-accessibility > p{
-    font-size: 1.1rem;
-    line-height: 1.4rem;
-}
 
 
 .item-two-accessibility{
