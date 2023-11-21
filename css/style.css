@@ -446,23 +446,27 @@ footer{
 }
 
 /*-------- Topical --------*/
-
 .topical-page{
     display: grid;
-    grid-template-columns: 2fr 1fr ;
-    grid-template-rows: 1.5fr 1.5fr;
+    grid-template-columns: auto;
+    
     grid-template-areas:
     "topical-text topical-images"
     "topical-text topical-images";
-    gap: 20px;
+    
+    
 }
 
 .topical-main{
     background-color: #880aba;
     padding: 20px;
-    margin-left: 15vw;
+    margin-left: 5vw;
     margin-right: 5vw;
     margin-top: 2vh;
+}
+.topical main2{
+    display: grid;
+    grid-template-columns: auto;
 }
 
 #topical-images{
@@ -475,6 +479,9 @@ footer{
     height: 340px;
     align-items: center; 
     margin-top: 2vh;
+    width: 90%;
+    height: 35rem;
+    
 }
 .topical-caption{
     padding-top: 0.5rem;
