@@ -147,7 +147,7 @@ footer{
 .footer-container li{
     list-style-type: none;
     line-height: 1.6;
-    color: #140005;
+    color: #140005
 }
 
 .footer-container  li  b{
@@ -157,6 +157,11 @@ footer{
 .footer-container  li  a{
     color: black;
 }
+
+.footer-container  li  a:hover{
+    color: rgb(212, 24, 24);
+}
+
 
 /* mobile view when max-width 400px reaches pictures and texts appear in new lines*/
 
